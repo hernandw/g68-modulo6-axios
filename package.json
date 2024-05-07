@@ -1,0 +1,23 @@
+{
+  "name": "clase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "node app.js",
+    "axios": "node --watch axios1.js"
+  },
+  "keywords": [],
+  "author": "Williams Hernandez",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "jquery": "*"
+  }
+}
